@@ -1,0 +1,339 @@
+LOUP SOURCE-AVAILABLE LICENSE
+Version 1.0
+
+Copyright (c) 2026 Code Craft AI LLC
+
+Why this License is strict
+
+The mission of Code Craft AI LLC is to provide trusted-source foundation code
+and runtimes: software that others can build on because it is a first-class
+product, with a purposely designed revenue stream that funds its maintenance
+and development by qualified, trusted engineers.
+
+Loup is a single-source toolchain. Every Loup compiler, interpreter and
+runtime comes from Code Craft AI, so that a Loup program behaves the same
+wherever it is built and run, and so that the runtime built into every Loup
+program can be trusted. The limits this License places on modifying, forking
+and distributing the Software exist to protect the integrity of that compiler
+and runtime.
+
+If You need something the Software does not provide, You can build it
+yourself as a library, package or developer tool (Section 5.3), or propose it
+as a feature through the Loup issue tracker or
+https://code-craft.ai/contact_us (Section 6).
+
+This preamble explains the purpose of this License. It does not change its
+terms.
+
+1. Definitions
+
+- "Licensor" means Code Craft AI LLC.
+- "Software" means the Loup language toolchain, compilers, runtimes,
+  standard libraries, tools and documentation that Licensor makes available
+  under this License, in source or binary form, including updates.
+- "Official Build" means a binary distribution of the Software built and
+  published by Licensor. Licensor is the only source of Official Builds.
+- "You" means the individual or Legal Entity accepting this License. An
+  individual accepting on behalf of a Legal Entity binds that entity.
+- "Legal Entity" means a company, partnership, sole proprietorship,
+  government body, nonprofit or other organization, together with any entity
+  it controls. A parent company and its subsidiaries count as one Legal
+  Entity.
+- "Personal Use" means use by an individual, on their own time and
+  equipment, for purposes that do not generate revenue or serve the business
+  of any Legal Entity, including their employer, clients or customers.
+- "Educational Use" means use by students and instructors for coursework,
+  teaching and academic research at an accredited educational institution,
+  and use in non-commercial training materials.
+- "Commercial Use" means any use that is not Personal Use, Educational Use,
+  Open-Source Use or Nonprofit Use. This includes any use on behalf of an
+  employer, client or customer; building, maintaining or testing software or
+  services that are sold, licensed, hosted or used internally by a business;
+  and paid consulting or contract work.
+- "Developer" means an individual human who writes, modifies, reviews or
+  builds Loup source code, or operates the Software, for Commercial Use.
+- "Agent" means an AI system or other automated process that autonomously
+  writes, modifies or generates Loup source code for Commercial Use. Build
+  servers and CI pipelines that only compile, test or package code written
+  by licensed Developers or Agents are not Agents.
+- "Seat" means one Commercial License entitlement covering one named
+  Developer or one Agent account, for one Term.
+- "Your Programs" means software You create using the Software, including
+  compiled binaries, scripts and web output, and any Loup runtime or library
+  code the Software embeds or links into them.
+- "Extensions" means the libraries, packages and developer tools You create
+  for the Loup ecosystem, as Section 5.3 describes.
+- "Open-Source Use" means developing software that is publicly released,
+  with its source code, under a license approved by the Open Source
+  Initiative. Software that a Legal Entity, other than a nonprofit, produces
+  or maintains for its own purposes, or uses in its own business, is
+  commercial code: developing or maintaining it is Commercial Use, even when
+  it is publicly released under such a license.
+- "Nonprofit Use" means use by, and for the purposes of, an organization
+  recognized as tax-exempt nonprofit under the law of its jurisdiction, such
+  as a U.S. 501(c)(3) organization.
+- "Term" means the five-year period starting on the date a Seat is purchased
+  or last renewed.
+
+2. Free License for Personal, Educational, Open-Source and Nonprofit Use
+
+Personal Use, Educational Use, Open-Source Use and Nonprofit Use are free of
+charge. Subject to this License, Licensor grants You a worldwide, non-
+exclusive, non-transferable, royalty-free license to view and inspect the
+source code of the Software, to build the Software from its unmodified source
+code as Section 5.1 allows, to install and run Official Builds and those
+builds, and to create, build and run Your Programs and Extensions, solely for
+those uses.
+
+2.1 No work use. A Personal Use license never covers Commercial Use. You may
+not use a personally licensed copy for an employer, client or customer,
+including outside working hours or on personal equipment. That work requires
+a Commercial License held by, or bought for, that Legal Entity.
+
+2.2 Changing purpose. Once You earn income from a program that began as
+Personal Use or Educational Use, its development becomes Commercial Use. To
+remain compliant, You must buy a Commercial License, with a Seat for each
+Developer and Agent working on it, before continuing that development.
+
+3. Commercial License
+
+3.1 Seats. Commercial Use requires a Commercial License with one Seat for
+each Developer and each Agent engaged in that use. A Commercial License grants
+the same rights as Section 2, for Commercial Use, to the Developers and Agents
+it covers.
+
+3.2 Purchase. Seats are purchased from Licensor at
+https://code-craft.ai/loup/license. Organizations needing volume or custom
+terms may negotiate a bulk license with Licensor through
+https://code-craft.ai/contact_us. Where a signed bulk agreement conflicts with
+this License, the bulk agreement governs.
+
+3.3 Term. Each Seat covers one Term, starting on the date it is purchased or
+last renewed.
+
+3.4 Assigning Seats. A Seat is assigned to one named Developer or one Agent
+account at a time. You may reassign a Seat permanently when its Developer
+leaves Your organization or stops doing Commercial Use for You, or when an
+Agent account is retired. You may not share a Seat or rotate it among
+Developers or Agents.
+
+3.5 End of Term. When a Seat's Term ends without renewal, the Developer or
+Agent it covered must stop Commercial Use of the Software. Your Programs
+built and distributed while the Seat was in effect remain licensed under
+Section 4, and their users keep their rights under Section 4.3.
+
+3.6 Compliance. On Licensor's written request, no more than once a year, You
+will confirm in writing that the number of Developers and Agents engaged in
+Commercial Use does not exceed the Seats You hold.
+
+4. Your Programs
+
+4.1 Ownership. You own Your Programs. This License claims no rights in the
+code You write.
+
+4.2 Runtime redistribution. You may freely copy, distribute, sell and
+sublicense the Loup runtime and library code that the Software embeds or
+links into Your Programs, without royalty, provided Your Programs were built
+with a copy of the Software that is properly licensed to You under this
+License, whether under the free license (Section 2) or a Commercial License
+(Section 3). This permission covers that code only as part of Your Programs.
+It does not cover distributing it on its own, or as part of a compiler,
+interpreter or runtime that competes with the Software. You may not modify
+that code. That code stays under this License even when Your Programs are
+distributed under a different license, including an open-source license. The
+Loup runtime and library code are a compiler runtime component: they are
+included in the normal packaging of the Software's compiler, separately from
+the compiler itself, and serve only to enable programs built with the
+Software to run.
+
+4.3 Users of Your Programs. No license from Licensor is needed to run, use or
+receive Your Programs. Where Your Programs offer scripting or extension in
+Loup, built on runtime code You distribute under Section 4.2, their users may
+write, run and share scripts for Your Programs through that scripting support
+without a license from Licensor, including for commercial purposes, despite
+the definition of Commercial Use in Section 1. This permission covers only
+scripting performed through Your Programs. Developing Loup software with the
+Software itself, outside Your Programs, remains subject to Sections 2 and 3.
+
+5. Source Code, Forks and Extensions
+
+5.1 Source code. Licensor makes the Software's source code available so You
+can inspect it and build the Software from it. You may read and study it,
+refer to it while creating Your Programs and Extensions, and build the
+Software from the unmodified source code for Your own use under this License.
+You may not modify it, create derivative works of it, or copy any part of it
+into other software, except as a signed Contributor License Agreement with
+Licensor permits.
+
+5.2 No forks. You may not create, use or distribute a fork, port, modified
+build or derivative of any compiler, interpreter, runtime, standard library
+or tool in the Software, except as a signed Contributor License Agreement with
+Licensor permits for preparing Contributions. Every compiler, interpreter and
+runtime for the Loup language must originate from Licensor.
+
+5.3 Extensions. You may build and distribute, under licenses of Your choosing:
+
+(a) libraries and packages that extend the Loup ecosystem; and
+
+(b) developer tools for Loup, such as editors, editor plugins, language
+servers, linters, formatters and debuggers, provided they do not themselves
+interpret, execute, compile, transpile or translate Loup code. Such a tool may
+run or compile Loup code only by invoking the Software through the interfaces
+Licensor provides for that purpose.
+
+An Extension may not include or be derived from the Software's source code.
+
+5.4 Copies and distribution. You may install and run copies of Official
+Builds, and of builds You made under Section 5.1, on systems You control,
+including build servers and CI images used only within Your organization.
+Builds You made under Section 5.1 may never be released or distributed. Any
+other distribution of the Software, in source or binary form, to anyone
+outside Your organization, including copies of Official Builds, container
+images, mirrors and package-manager packages, requires a separate written
+Distribution License from Licensor, which states who may distribute the
+Software and to whom. Distribution Licenses are requested through
+https://code-craft.ai/contact_us.
+
+6. Contributions and Feedback
+
+6.1 Assignment. You assign to Licensor all right, title and interest,
+including all intellectual property rights, in any feedback, bug report,
+suggestion, patch, enhancement or other material You submit to Licensor
+concerning the Software, including its compiler toolchain and the libraries
+Licensor ships ("Contributions"). Licensor may use, modify, incorporate and
+distribute Contributions without restriction, attribution or payment.
+
+6.2 Fallback. Where a right in a Contribution cannot be assigned, You grant
+Licensor a perpetual, irrevocable, worldwide, royalty-free, sublicensable
+license to use it for any purpose, and You waive any moral rights in it to the
+extent the law allows.
+
+6.3 Authority. You confirm that You have the right to make each Contribution,
+including any permission required from Your employer.
+
+6.4 What is not a Contribution. Your Programs and Extensions are not
+Contributions unless You submit them to Licensor for inclusion in the
+Software.
+
+6.5 Contributor License Agreement. Licensor accepts code and documentation
+Contributions only from contributors who have signed Licensor's Contributor
+License Agreement. Where that agreement and this Section 6 differ, the
+Contributor License Agreement governs.
+
+7. Trademarks
+
+7.1 Loup™ and Code Craft AI are trademarks of Code Craft AI LLC. This License
+grants no right to use them except as Sections 7.2 to 7.4 allow.
+
+7.2 "Compiled by Loup". You may state that Your Programs were "Compiled by
+Loup" if:
+
+(a) the Software was the only compiler used to build them, and the copy used
+was properly licensed to You under this License. Tools that the Software
+itself runs as part of its build pipeline, such as its LLVM, assembler and
+linker stages, count as part of the Software; and
+
+(b) they contain no code written in a language other than Loup, apart from
+code that the Software itself generates, embeds or links into the programs it
+builds, such as the Loup runtime, the Loup standard library, generated host
+glue and the system libraries the Software links by default.
+
+7.3 "Contains Loup code". If Your Programs do not meet Section 7.2, for
+example because they also contain code in another language or built by
+another compiler, You may state that they "Contain Loup code", provided the
+Loup portions were built with a copy of the Software properly licensed to You
+under this License.
+
+7.4 Conditions for both statements. You may make the statements in Sections
+7.2 and 7.3 in Your Programs and in their documentation, packaging and
+marketing, provided that:
+
+(a) the statement is accurate;
+
+(b) You use the words in plain text, and not the Loup logo or other Code
+Craft AI artwork, unless Code Craft AI has approved that use in writing;
+
+(c) the statement does not suggest that Code Craft AI sponsors, endorses or
+certifies Your Programs; and
+
+(d) You do not use "Loup", or a confusingly similar name, as the name of Your
+product, company or web domain, or of any compiler, interpreter or runtime.
+
+8. Termination
+
+8.1 Breach. If You breach this License, Licensor may notify You. If You cure
+the breach within 30 days of that notice, Your license continues. If You do
+not, Your license ends automatically. A breach of Section 5, or a second
+breach of the same kind, ends Your license on notice, with no cure period.
+
+8.2 Patent claims. If You start a lawsuit or other proceeding alleging that
+the Software infringes a patent, Your license under this License ends on the
+date You start it.
+
+8.3 Effect. When Your license ends, You must stop using the Software and
+delete all copies of it in Your possession or control. Copies of Your
+Programs distributed before Your license ended remain licensed under Section
+4.2, and their users keep their rights under Section 4.3. Ending a license
+does not entitle You to a refund of fees already paid.
+
+8.4 Survival. Sections 1, 4.1, 4.3, 6, 7.1, 8.3, 8.4, 9, 10, 11 and 12
+survive the end of this License.
+
+9. Disclaimer of Warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTY OF ANY
+KIND, EXPRESS OR IMPLIED, INCLUDING WARRANTIES OF MERCHANTABILITY, FITNESS FOR
+A PARTICULAR PURPOSE, TITLE AND NON-INFRINGEMENT, AND ANY WARRANTY THAT
+PROGRAMS BUILT WITH THE SOFTWARE WILL BE CORRECT OR FREE OF DEFECTS. YOU ARE
+RESPONSIBLE FOR TESTING YOUR PROGRAMS AND FOR THEIR USE. SOME JURISDICTIONS
+DO NOT ALLOW THE EXCLUSION OF CERTAIN WARRANTIES, SO SOME OF THESE EXCLUSIONS
+MAY NOT APPLY TO YOU.
+
+10. Limitation of Liability
+
+TO THE EXTENT PERMITTED BY LAW, LICENSOR WILL NOT BE LIABLE FOR ANY INDIRECT,
+INCIDENTAL, SPECIAL, CONSEQUENTIAL OR PUNITIVE DAMAGES, OR FOR LOST PROFITS,
+REVENUE, DATA OR BUSINESS, ARISING OUT OF OR RELATED TO THIS LICENSE, THE
+SOFTWARE OR PROGRAMS BUILT WITH IT, EVEN IF ADVISED OF THEIR POSSIBILITY.
+LICENSOR'S TOTAL LIABILITY FOR ALL CLAIMS RELATED TO THIS LICENSE AND THE
+SOFTWARE WILL NOT EXCEED THE AMOUNT YOU PAID LICENSOR FOR THE SOFTWARE IN THE
+12 MONTHS BEFORE THE CLAIM AROSE, OR USD 100 IF YOU PAID NOTHING.
+
+11. Governing Law and Venue
+
+This License is governed by the laws of the State of Washington, United
+States, excluding its conflict-of-laws rules. The state and federal courts
+located in the State of Washington have exclusive jurisdiction over any
+dispute arising out of or related to this License, and You consent to their
+jurisdiction. Licensor may seek injunctive relief in any court of competent
+jurisdiction to protect its intellectual property.
+
+12. General
+
+12.1 Versions of this License. Licensor may publish new versions of this
+License. A new version applies to versions of the Software released under it.
+It does not change Your rights in Software You received under an earlier
+version, or the terms of a Seat already purchased, until that Seat is renewed.
+
+12.2 Entire agreement. This License, together with any signed bulk license,
+Distribution License or Contributor License Agreement with Licensor, is the
+entire agreement
+between You and Licensor about the Software. Where they conflict, a signed
+agreement governs.
+
+12.3 Severability. If any provision of this License is held unenforceable,
+the rest remains in effect, and the unenforceable provision applies to the
+fullest extent the law allows.
+
+12.4 Assignment. You may not assign or transfer this License, or any Seat,
+without Licensor's written consent, except to a successor of Your entire
+business that agrees to be bound by it. Licensor may assign this License.
+
+12.5 No waiver. Licensor's failure to enforce any provision is not a waiver
+of its right to enforce it later.
+
+12.6 Export. You will comply with all export control and sanctions laws that
+apply to Your use and distribution of the Software and Your Programs.
+
+12.7 Contact. Questions about this License, licensing requests and notices to
+Licensor go to https://code-craft.ai/contact_us.
