@@ -1,14 +1,27 @@
-# Loup — official toolchain builds
+# Loup Lite — official toolchain builds
 
 **Loup** (*Language of Unusual Portability | Power*) is a strongly typed language for
 scripting, automation, code generation and embedded templating, with a
 capability-based runtime and a portable WebAssembly runtime.
 
-This repository publishes the **official Loup toolchain builds** from
+> **This is Loup Lite**, the free public build of Loup, intended for
+> **educational and training purposes**. It contains the Loup toolchain and
+> standard library, but **not** Loup's cryptography APIs — the cryptography
+> library with its encryption, signatures, key exchange and TLS — and **not**
+> the full set of Loup modules and packages. Its only cryptographic function is
+> SHA-256 hashing.
+>
+> **Customers: get the full release from the Code Craft AI website,
+> <https://code-craft.ai/loup/download>.** Commercial use of Loup needs a seat:
+> <https://code-craft.ai/loup/license>.
+
+This repository publishes the **official Loup Lite builds** from
 [Code Craft AI](https://code-craft.ai): one archive per platform, the download
 installers, and signed checksums. It holds no source code.
 
-## Install
+To learn Loup, read the Loup books at <https://code-craft.ai/references/loup>.
+
+## Install Loup Lite
 
 Linux and macOS:
 
@@ -38,7 +51,9 @@ administrator rights are needed. A specific version: `sh -s -- --version 1.25.1`
 
 Every archive holds the Loup toolchain (`loup`, the trusted Stage0 compiler
 `loup-bootstrap`) and the Loup Wasm runtime `loup-launcher`, so scripts, Wasm
-applications and packaged desktop applications work on every platform.
+applications and packaged desktop applications work on every platform. The
+cryptography library and the rest of the Loup packages are in the full release
+only (<https://code-craft.ai/loup/download>).
 
 To install by hand: download the archive, check it against `SHA256SUMS`, unpack
 it anywhere and add its `bin` directory to PATH. Each archive's `README.txt`
@@ -73,5 +88,6 @@ sha256sum --ignore-missing -c SHA256SUMS
 ## License
 
 Loup is licensed under the [Loup Source-Available License 1.0](LICENSE).
-Code Craft AI is the only source of official builds. Contact:
-<https://code-craft.ai/contact_us>.
+Code Craft AI is the only source of official builds: Loup Lite here, and the
+full release at <https://code-craft.ai/loup/download>. Contact:
+<https://code-craft.ai/contact>.
