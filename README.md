@@ -38,16 +38,16 @@ irm https://github.com/code-craft-ai-company/loup-releases/releases/latest/downl
 The installers pick the archive for your machine, verify it against the
 release's `SHA256SUMS`, unpack it into one directory (`~/.loup`, or
 `%LOCALAPPDATA%\Programs\Loup` on Windows) and put its `bin` on your PATH. No
-administrator rights are needed. A specific version: `sh -s -- --version 1.25.1`
-(Unix) or `$env:LOUP_VERSION = "1.25.1"` before the Windows command.
+administrator rights are needed. A specific version: `sh -s -- --version 1.25.2`
+(Unix) or `$env:LOUP_VERSION = "1.25.2"` before the Windows command.
 
 | Platform | Archive | Native builds |
 | --- | --- | --- |
 | Linux x86-64 (glibc 2.35+) | `loup-<version>-x86_64-unknown-linux-gnu.tar.gz` | `loup build --target native` (clang 14+) |
-| Linux arm64 (glibc 2.35+) | `loup-<version>-aarch64-unknown-linux-gnu.tar.gz` | not yet |
+| Linux arm64 (glibc 2.35+) | `loup-<version>-aarch64-unknown-linux-gnu.tar.gz` | `loup build --target native` (clang 17+) |
 | macOS 11+, Apple silicon | `loup-<version>-aarch64-apple-darwin.tar.gz` | `loup-bootstrap build --target native` (preview) |
 | macOS 11+, Intel | `loup-<version>-x86_64-apple-darwin.tar.gz` | `loup-bootstrap build --target native` (preview) |
-| Windows 10+ x86-64 | `loup-<version>-x86_64-pc-windows-msvc.zip` | not yet |
+| Windows 10+ x86-64 | `loup-<version>-x86_64-pc-windows-msvc.zip` | `loup build --target native` (preview; LLVM 17+ and Visual Studio Build Tools) |
 
 Every archive holds the Loup toolchain (`loup`, the trusted Stage0 compiler
 `loup-bootstrap`) and the Loup Wasm runtime `loup-launcher`, so scripts, Wasm
