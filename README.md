@@ -1,6 +1,6 @@
 # Loup — official toolchain builds
 
-**Loup** (*Language of Unusual Portability / Power*) is a strongly typed language for
+**Loup** (*Language of Unusual Portability | Power*) is a strongly typed language for
 scripting, automation, code generation and embedded templating, with a
 capability-based runtime and a portable WebAssembly runtime.
 
