@@ -7,8 +7,11 @@ capability-based runtime and a portable WebAssembly runtime.
 > **This is Loup Lite**, the free public build of Loup, intended for
 > **educational and training purposes**. Loup Lite contains **no encryption or
 > decryption functionality**: it includes the Loup toolchain and standard
-> library, but leaves out the Loup cryptography library (ciphers, key exchange,
-> digital signatures and TLS) and the full set of Loup modules and packages.
+> library and, of the Loup cryptography library, only its hash functions
+> (`loup.crypto.hash`: SHA-2, SHA-3 and SHAKE, cSHAKE, BLAKE2, BLAKE3). It
+> leaves out the rest of that library (ciphers, MACs, key derivation, key
+> exchange, digital signatures and TLS) and the full set of Loup modules and
+> packages.
 >
 > **Customers: get the full release from the Code Craft AI website,
 > <https://code-craft.ai/loup/download>.** Commercial use of Loup needs a seat:
@@ -50,9 +53,11 @@ administrator rights are needed. A specific version: `sh -s -- --version 1.26.0`
 
 Every archive holds the Loup toolchain (`loup`, the trusted Stage0 compiler
 `loup-bootstrap`) and the Loup Wasm runtime `loup-launcher`, so scripts, Wasm
-applications and packaged desktop applications work on every platform. The
-cryptography library and the rest of the Loup modules and packages are in the
-full release only (<https://code-craft.ai/loup/download>).
+applications and packaged desktop applications work on every platform. Of the
+cryptography library, every archive holds the hash functions, ready to import
+with no setup (`from loup.crypto.hash.sha256 import (sha256);`). The rest of
+that library and the rest of the Loup modules and packages are in the full
+release only (<https://code-craft.ai/loup/download>).
 
 To install by hand: download the archive, check it against `SHA256SUMS`, unpack
 it anywhere and add its `bin` directory to PATH. Each archive's `README.txt`
