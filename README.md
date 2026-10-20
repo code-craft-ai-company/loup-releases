@@ -37,8 +37,8 @@ irm https://github.com/code-craft-ai-company/loup-releases/releases/latest/downl
 The installers pick the archive for your machine, verify it against the
 release's `SHA256SUMS`, unpack it into one directory (`~/.loup`, or
 `%LOCALAPPDATA%\Programs\Loup` on Windows) and put its `bin` on your PATH. No
-administrator rights are needed. A specific version: `sh -s -- --version 1.25.2`
-(Unix) or `$env:LOUP_VERSION = "1.25.2"` before the Windows command.
+administrator rights are needed. A specific version: `sh -s -- --version 1.26.0`
+(Unix) or `$env:LOUP_VERSION = "1.26.0"` before the Windows command.
 
 | Platform | Archive | Native builds |
 | --- | --- | --- |
