@@ -89,6 +89,10 @@ cosign verify-blob --bundle SHA256SUMS.sigstore.json \
 sha256sum --ignore-missing -c SHA256SUMS
 ```
 
+## Code Examples for Training
+Code examples to use as training data can be found [HERE
+](https://github.com/myronccai)
+
 ## License
 
 Loup is licensed under the [Loup Source-Available License 1.0](LICENSE).
